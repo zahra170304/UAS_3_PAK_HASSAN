@@ -1,12 +1,10 @@
-
 <!doctype html>
 <html lang="en">
   <head>
-    <title>JobBoard &mdash; Website Template by Colorlib</title>
+    <title>Post A Job</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    
+
     <link rel="stylesheet" href="css/custom-bs.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/bootstrap-select.min.css">
@@ -15,10 +13,9 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/quill.snow.css">
-    
 
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body id="top">
 
@@ -28,19 +25,8 @@
       <span class="sr-only">Loading...</span>
     </div>
   </div>
-    
 
 <div class="site-wrap">
-
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div> <!-- .site-mobile-menu -->
-    
 
     <!-- NAVBAR -->
     <x-navbar></x-navbar>
@@ -61,176 +47,92 @@
       </div>
     </section>
 
-    
-    <section class="site-section">
-      <div class="container">
-
-        <div class="row align-items-center mb-5">
-          <div class="col-lg-8 mb-4 mb-lg-0">
-            <div class="d-flex align-items-center">
-              <div>
-                <h2>Post A Job</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="row">
-              <div class="col-6">
-                <a href="#" class="btn btn-block btn-light btn-md"><span class="icon-open_in_new mr-2"></span>Preview</a>
-              </div>
-              <div class="col-6">
-                <a href="#" class="btn btn-block btn-primary btn-md">Save Job</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col-lg-12">
-            <form class="p-4 p-md-5 border rounded" method="post">
-              <h3 class="text-black mb-5 border-bottom pb-2">Job Details</h3>
-              
-              <div class="form-group">
-                <label for="company-website-tw d-block">Upload Featured Image</label> <br>
-                <label class="btn btn-primary btn-md btn-file">
-                  Browse File<input type="file" hidden>
-                </label>
-              </div>
-
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="text" class="form-control" id="email" placeholder="you@yourdomain.com">
-              </div>
-              <div class="form-group">
-                <label for="job-title">Job Title</label>
-                <input type="text" class="form-control" id="job-title" placeholder="Product Designer">
-              </div>
-              <div class="form-group">
-                <label for="job-location">Location</label>
-                <input type="text" class="form-control" id="job-location" placeholder="e.g. New York">
-              </div>
-
-              <div class="form-group">
-                <label for="job-region">Job Region</label>
-                <select class="selectpicker border rounded" id="job-region" data-style="btn-black" data-width="100%" data-live-search="true" title="Select Region">
-                      <option>Anywhere</option>
-                      <option>San Francisco</option>
-                      <option>Palo Alto</option>
-                      <option>New York</option>
-                      <option>Manhattan</option>
-                      <option>Ontario</option>
-                      <option>Toronto</option>
-                      <option>Kansas</option>
-                      <option>Mountain View</option>
-                    </select>
-              </div>
-
-              <div class="form-group">
-                <label for="job-type">Job Type</label>
-                <select class="selectpicker border rounded" id="job-type" data-style="btn-black" data-width="100%" data-live-search="true" title="Select Job Type">
-                  <option>Part Time</option>
-                  <option>Full Time</option>
-                </select>
-              </div>
-
-
-              <div class="form-group">
-                <label for="job-description">Job Description</label>
-                <div class="editor" id="editor-1">
-                  <p>Write Job Description!</p>
-                </div>
-              </div>
-
-
-              <h3 class="text-black my-5 border-bottom pb-2">Company Details</h3>
-              <div class="form-group">
-                <label for="company-name">Company Name</label>
-                <input type="text" class="form-control" id="company-name" placeholder="e.g. New York">
-              </div>
-
-              <div class="form-group">
-                <label for="company-tagline">Tagline (Optional)</label>
-                <input type="text" class="form-control" id="company-tagline" placeholder="e.g. New York">
-              </div>
-
-              <div class="form-group">
-                <label for="job-description">Company Description (Optional)</label>
-                <div class="editor" id="editor-2">
-                  <p>Description</p>
-                </div>
-              </div>
-              
-              <div class="form-group">
-                <label for="company-website">Website (Optional)</label>
-                <input type="text" class="form-control" id="company-website" placeholder="https://">
-              </div>
-
-              <div class="form-group">
-                <label for="company-website-fb">Facebook Username (Optional)</label>
-                <input type="text" class="form-control" id="company-website-fb" placeholder="companyname">
-              </div>
-
-              <div class="form-group">
-                <label for="company-website-tw">Twitter Username (Optional)</label>
-                <input type="text" class="form-control" id="company-website-tw" placeholder="@companyname">
-              </div>
-              <div class="form-group">
-                <label for="company-website-tw">Linkedin Username (Optional)</label>
-                <input type="text" class="form-control" id="company-website-tw" placeholder="companyname">
-              </div>
-
-              <div class="form-group">
-                <label for="company-website-tw d-block">Upload Logo</label> <br>
-                <label class="btn btn-primary btn-md btn-file">
-                  Browse File<input type="file" hidden>
-                </label>
-              </div>
-
-            </form>
-          </div>
-
-         
-        </div>
-        <div class="row align-items-center mb-5">
-          
-          <div class="col-lg-4 ml-auto">
-            <div class="row">
-              <div class="col-6">
-                <a href="#" class="btn btn-block btn-light btn-md"><span class="icon-open_in_new mr-2"></span>Preview</a>
-              </div>
-              <div class="col-6">
-                <a href="#" class="btn btn-block btn-primary btn-md">Save Job</a>
-              </div>
-            </div>
-          </div>
-        </div>
+    <form class="p-4 p-md-5 border rounded" method="POST" action="{{ route('post-job.store') }}" enctype="multipart/form-data">
+      @csrf
+      <!-- Form fields -->
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" id="email" name="email" placeholder="you@yourdomain.com" required>
       </div>
-    </section>
+    
+      <div class="form-group">
+        <label for="job-title">Job Title</label>
+        <input type="text" class="form-control" id="job-title" name="job_title" placeholder="Product Designer" required>
+      </div>
+    
+      <div class="form-group">
+  <label for="job-type">Job Type</label>
+  <select class="form-control" id="job-type" name="job_type" required>
+    <option value="Full Time">Full Time</option>
+    <option value="Part Time">Part Time</option>
+    <option value="Contract">Contract</option>
+  </select>
+</div>
 
+      <div class="form-group">
+        <label for="job-location">Location</label>
+        <input type="text" class="form-control" id="job-location" name="location" placeholder="e.g. New York" required>
+      </div>
     
+      <div class="form-group">
+        <label for="job-region">Job Region</label>
+        <select class="form-control" id="job-region" name="region" required>
+          <option value="Anywhere">Anywhere</option>
+          <option value="San Francisco">San Francisco</option>
+          <option value="New York">New York</option>
+          <!-- Tambahkan opsi lainnya -->
+        </select>
+      </div>
     
+      <div class="form-group">
+        <label for="job-type">Job Type</label>
+        <select class="form-control" id="job-type" name="job_type" required>
+          <option value="Full Time">Full Time</option>
+          <option value="Part Time">Part Time</option>
+          <option value="Contract">Contract</option>
+        </select>
+      </div>
+      
+    
+      <div class="form-group">
+        <label for="job-description">Job Description</label>
+        <textarea class="form-control" id="job-description" name="description" rows="5" required></textarea>
+      </div>
+    
+      <div class="form-group">
+        <label for="company-name">Company Name</label>
+        <input type="text" class="form-control" id="company-name" name="company_name" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="company-tagline">Tagline</label>
+        <input type="text" class="form-control" id="company-tagline" name="company_tagline">
+      </div>
+    
+      <!-- Tambahkan semua field lainnya seperti di HTML awal -->
+      
+      <div class="form-group">
+        <label for="featured_image">Upload Featured Image</label>
+        <input type="file" class="form-control-file" id="featured_image" name="featured_image">
+      </div>
+    
+      <div class="form-group">
+        <label for="logo">Upload Logo</label>
+        <input type="file" class="form-control-file" id="logo" name="logo">
+      </div>
+    
+      <button type="submit" class="btn btn-primary">Post Job</button>
+    </form>
+    
+
    <x-footer></x-footer>
-  
-  </div>
+
+</div>
 
     <!-- SCRIPTS -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/stickyfill.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/quill.min.js"></script>
-    
-    
-    <script src="js/bootstrap-select.min.js"></script>
-    
     <script src="js/custom.js"></script>
-   
-   
-     
+
   </body>
 </html>

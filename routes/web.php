@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\JobController;
 
 Route::get('/', function () {
     return view('login');
@@ -19,6 +20,10 @@ Route::get('/job-listings', function () {
     return view('job-listings');
 });
 
+Route::get('/job-single', function () {
+    return view('job-single');
+});
+
 Route::get('/about', function () {
     return view('about');
 });
@@ -26,6 +31,10 @@ Route::get('/about', function () {
 Route::get('/post-job', function () {
     return view('post-job');
 });
+
+Route::get('/post-job', [JobController::class, 'create'])->name('post-job.create');
+Route::post('/post-job', [JobController::class, 'store'])->name('post-job.store');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
