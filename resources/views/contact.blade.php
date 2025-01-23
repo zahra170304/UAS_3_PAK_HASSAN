@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>JobBoard &mdash; Website Template by Colorlib</title>
+    <link href="images/polnest.png" rel="icon">
+    <title>CDC &mdash; Politeknik Nest</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -51,7 +52,7 @@
           <div class="col-md-7">
             <h1 class="text-white font-weight-bold">Contact Us</h1>
             <div class="custom-breadcrumbs">
-              <a href="#">Home</a> <span class="mx-2 slash">/</span>
+              <a href="/dashboard">Home</a> <span class="mx-2 slash">/</span>
               <span class="text-white"><strong>Contact Us</strong></span>
             </div>
           </div>
@@ -111,14 +112,14 @@
           <div class="col-lg-5 ml-auto">
             <div class="p-4 mb-3 bg-white">
               <p class="mb-0 font-weight-bold">Address</p>
-              <p class="mb-4">203 Fake St. Mountain View, San Francisco, California, USA</p>
+              <a href="https://www.google.co.id/maps/place/Politeknik+Nest/@-7.6230643,110.8140828,15.92z/data=!4m6!3m5!1s0x2e7a3d72cbe53005:0xa4953746f994fd78!8m2!3d-7.6263867!4d110.8171738!16s%2Fg%2F11rcw8px5b?hl=id&entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D" class="hover:underline">Jl. Raya Telukan - Cuplik Km.1, Dkh. Padas Mas Sudimoro Rt 003/010, Kel. Parangjoro, Kec. Grogol ~ Indonesia, Kec. Sukoharjo, Prop, Jawa Tengah 57552</a>
 
               <p class="mb-0 font-weight-bold">Phone</p>
-              <p class="mb-4"><a href="#">+1 232 3235 324</a></p>
+              <a href="https://wa.me/62895424449876?text=Hi!" class="hover:underline">0895-4244-49876</a>
 
               <p class="mb-0 font-weight-bold">Email Address</p>
-              <p class="mb-0"><a href="#">youremail@domain.com</a></p>
-
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=andhikamaulana62@gmail.com&su=Halo&body=Hi!%20Apa%20kabar?" class="hover:underline">Info@andhikamaulana62</a>
+                </li>
             </div>
           </div>
         </div>

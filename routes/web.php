@@ -32,6 +32,34 @@ Route::get('/post-job', function () {
     return view('post-job');
 });
 
+Route::get('/services', function () {
+    return view('services');
+});
+
+Route::get('/service-single', function () {
+    return view('service-single');
+});
+
+Route::get('/testimonials', function () {
+    return view('testimonials');
+});
+
+Route::get('/faq', function () {
+    return view('faq');
+});
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 Route::get('/post-job', [JobController::class, 'create'])->name('post-job.create');
 Route::post('/post-job', [JobController::class, 'store'])->name('post-job.store');
 

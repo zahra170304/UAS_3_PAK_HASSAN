@@ -2,7 +2,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>JobBoard &mdash; Website Template by Colorlib</title>
+    <link href="images/polnest.png" rel="icon">
+    <title>CDC &mdash; Politeknik Nest</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -52,7 +53,7 @@
           <div class="col-md-7">
             <h1 class="text-white font-weight-bold">Gallery</h1>
             <div class="custom-breadcrumbs">
-              <a href="index.html">Home</a> <span class="mx-2 slash">/</span>
+              <a href="/dashboard">Home</a> <span class="mx-2 slash">/</span>
               <span class="text-white"><strong>Gallery</strong></span>
             </div>
           </div>
@@ -64,34 +65,34 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-4 item">
-            <a href="images/sq_img_1.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+            <a href="images/gallery-1.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_1.jpg">
+              <img class="img-fluid" src="images/gallery-1.jpeg">
             </a>
           </div>
           <div class="col-md-6 col-lg-4 item">
-            <a href="images/sq_img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+            <a href="images/gallery-2.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_2.jpg">
+              <img class="img-fluid" src="images/gallery-2.jpeg">
             </a>
           </div>
           <div class="col-md-6 col-lg-4 item">
-            <a href="images/sq_img_3.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+            <a href="images/gallery-3.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_3.jpg">
+              <img class="img-fluid" src="images/gallery-3.jpeg">
             </a>
           </div>
 
           <div class="col-md-6 col-lg-4 item">
-            <a href="images/sq_img_4.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+            <a href="images/gallery-4.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_4.jpg">
+              <img class="img-fluid" src="images/gallery-4.jpeg">
             </a>
           </div>
           <div class="col-md-6 col-lg-4 item">
-            <a href="images/sq_img_5.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+            <a href="images/gallery-5.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_5.jpg">
+              <img class="img-fluid" src="images/gallery-5.jpeg">
             </a>
           </div>
           <div class="col-md-6 col-lg-4 item">
@@ -102,15 +103,15 @@
           </div>
 
           <div class="col-md-6 col-lg-6 item">
-            <a href="images/sq_img_11.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+            <a href="images/gallery-7.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_11.jpg">
+              <img class="img-fluid" src="images/gallery-7.jpeg">
             </a>
           </div>
           <div class="col-md-6 col-lg-6 item">
-            <a href="images/sq_img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+            <a href="images/gallery-6.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_2.jpg">
+              <img class="img-fluid" src="images/gallery-6.jpeg">
             </a>
           </div>
 

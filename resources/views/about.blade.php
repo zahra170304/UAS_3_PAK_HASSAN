@@ -2,7 +2,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>JobBoard &mdash; Website Template by Colorlib</title>
+    <link href="images/polnest.png" rel="icon">
+    <title>CDC &mdash; Politeknik Nest</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -50,7 +51,7 @@
           <div class="col-md-7">
             <h1 class="text-white font-weight-bold">Tentang Kita</h1>
             <div class="custom-breadcrumbs">
-              <a href="#">Home</a> <span class="mx-2 slash">/</span>
+              <a href="/dashboard">Home</a> <span class="mx-2 slash">/</span>
               <span class="text-white"><strong>tentang kita</strong></span>
             </div>
           </div>
@@ -58,7 +59,7 @@
       </div>
     </section>
 
-    <section class="py-5 bg-image overlay-primary fixed overlay" id="next-section" style="background-image: url('images/hero_1.jpg');">
+    {{-- <section class="py-5 bg-image overlay-primary fixed overlay" id="next-section" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
@@ -99,7 +100,7 @@
             
         </div>
       </div>
-    </section>
+    </section> --}}
 
     
     <section class="site-section pb-0">
@@ -109,9 +110,9 @@
             <img src="images/bareng.jpg" alt="Image" class="img-fluid mb-4 rounded">
           </div>
           <div class="col-lg-5 ml-auto">
-            <h2 class="section-title mb-3">JobBoard untuk Freelancers, Web Developers</h2>
-            <p class="lead">kami membuat website untuk freelance dan web Developers</p>
-            <p>diwebsite ini kalian bisa mencari freelance dengan gampang</p>
+            <h2 class="section-title mb-3">JobBoard untuk Semua Jenis Pekerjaan</h2>
+            <p class="lead">Platform Terlengkap untuk Menemukan Pekerjaan Impian Anda</p>
+            <p>Tempat Terbaik untuk Freelancers, Profesional, dan Pekerja dari Berbagai Bidang.</p>
           </div>
         </div>
       </div>
@@ -124,20 +125,20 @@
             <img src="images/bareng.jpg" alt="Image" class="img-fluid mb-4 rounded">
           </div>
           <div class="col-lg-5 mr-auto order-md-1  mb-5 mb-lg-0">
-            <h2 class="section-title mb-3">JobBoard bust pekerja</h2>
-            <p class="lead">kami juga membuat tempat untuk mencari pekerjaan lain</p>
-            <p>diwebsite ini kalian bisa mencari pekerjaan yang kalian mau dan banyak lainnya</p>
+            <h2 class="section-title mb-3">JobBoard untuk Pencari Kerja</h2>
+            <p class="lead">Jelajahi Ribuan Peluang Karier dari Berbagai Industri.</p>
+            <p>Solusi Pencarian Kerja untuk Semua Bidang, Kapan Saja dan Di Mana Saja.</p>
           </div>
         </div>
       </div>
+      
     </section>
 
-   
-    <section class="site-section">
+    {{-- <section class="site-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center" data-aos="fade">
-            <h2 class="section-title mb-3">tim kami</h2>
+            <h2 class="section-title mb-3">Tim Kami</h2>
           </div>
         </div>
 
@@ -222,6 +223,104 @@
               <a href="#"><span class="icon-linkedin"></span></a>
             </div>
           </div>
+      </div>
+    </section> --}}
+
+    <section class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3">Our Team</h2>
+          </div>
+        </div>
+
+        <div class="row align-items-center block__69944">
+
+          <div class="col-md-6">
+            <img src="images/andhikaa.JPG" alt="Image" class="img-fluid mb-4 rounded">
+          </div>
+
+          <div class="col-md-6">
+            <h3>Andhika Rifqi Maulana</h3>
+            <p class="text-muted">FrontEnd Developer</p>
+            <p>Sebagai pengembang web yang berbasis di Sukoharjo, saya berkembang dalam menciptakan pengalaman digital yang inovatif. Didorong oleh semangat dan dorongan untuk mencapai keunggulan, saya berkomitmen untuk mengubah ide-ide kreatif menjadi solusi web yang fungsional dan menarik.</p>
+            <div class="social mt-4">
+              <a href="https://www.facebook.com/andhika.maulana.52687/?locale=id_ID"><span class="icon-facebook"></span></a>
+              <a href="https://www.youtube.com/@andhikaarifqii"><span class="icon-youtube"></span></a>
+              <a href="https://www.instagram.com/andhikaarifqii/"><span class="icon-instagram"></span></a>
+              <a href="#"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+
+          <div class="col-md-6 order-md-2 ml-md-auto">
+            <img src="images/abidd.jpg" alt="Image" class="img-fluid mb-4 rounded">
+          </div>
+
+          <div class="col-md-6">
+            <h3>Muhammad abid</h3>
+            <p class="text-muted">BackEnd Developer</p>
+            <p>Sebagai pengembang backend, saya mengkhususkan diri dalam merancang dan membangun sistem yang andal, efisien, dan skalabel. Dengan fokus pada logika bisnis dan integrasi server-side, saya berdedikasi untuk menyediakan solusi teknologi yang mendukung performa tinggi dan pengalaman pengguna yang mulus. Semangat saya adalah menyederhanakan kompleksitas menjadi fungsionalitas yang nyata.</p>
+            <div class="social mt-4">
+              <a href="#"><span class="icon-facebook"></span></a>
+              <a href="#"><span class="icon-twitter"></span></a>
+              <a href="#"><span class="icon-instagram"></span></a>
+              <a href="#"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center block__69944">
+
+          <div class="col-md-6">
+            <img src="images/ali.jpg" alt="Image" class="img-fluid mb-4 rounded">
+          </div>
+
+          <div class="col-md-6">
+            <h3>Muhammad Ali Shahab</h3>
+            <p class="text-muted">FrontEnd Developer</p>
+            <p>Sebagai pengembang front-end, saya mengkhususkan diri dalam menciptakan antarmuka yang interaktif, responsif, dan estetis. Dengan fokus pada pengalaman pengguna, saya mengubah desain kreatif menjadi elemen visual yang hidup dan fungsional. Berbekal semangat inovasi, saya berkomitmen untuk menghadirkan tampilan web yang menarik sekaligus intuitif untuk dinavigasi.</p>
+            <div class="social mt-4">
+              <a href="#"><span class="icon-facebook"></span></a>
+              <a href="#"><span class="icon-twitter"></span></a>
+              <a href="#"><span class="icon-instagram"></span></a>
+              <a href="#"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+
+          <div class="col-md-6 order-md-2 ml-md-auto">
+            <img src="images/shanti.jpg" alt="Image" class="img-fluid mb-4 rounded">
+          </div>
+
+          <div class="col-md-6">
+            <h3>Shanti Dewi Aulia</h3>
+            <p class="text-muted">Team Creative</p>
+            <p>Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae voluptatibus ut? Ex vel  ad explicabo iure ipsa possimus consectetur neque rem molestiae eligendi velit?.</p>
+            <div class="social mt-4">
+              <a href="#"><span class="icon-facebook"></span></a>
+              <a href="#"><span class="icon-twitter"></span></a>
+              <a href="#"><span class="icon-instagram"></span></a>
+              <a href="#"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center block__69944">
+
+          <div class="col-md-6">
+            <img src="images/nia.jpg" alt="Image" class="img-fluid mb-4 rounded">
+          </div>
+
+          <div class="col-md-6">
+            <h3>Nia Nur Hidayah</h3>
+            <p class="text-muted">Team Creative</p>
+            <p>Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae voluptatibus ut? Ex vel  ad explicabo iure ipsa possimus consectetur neque rem molestiae eligendi velit?.</p>
+            <div class="social mt-4">
+              <a href="#"><span class="icon-facebook"></span></a>
+              <a href="#"><span class="icon-twitter"></span></a>
+              <a href="#"><span class="icon-instagram"></span></a>
+              <a href="#"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 

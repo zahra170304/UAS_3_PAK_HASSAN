@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Post A Job</title>
+    <link href="images/polnest.png" rel="icon">
+    <title>CDC &mdash; Post A Job</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -38,7 +39,7 @@
           <div class="col-md-7">
             <h1 class="text-white font-weight-bold">Post A Job</h1>
             <div class="custom-breadcrumbs">
-              <a href="#">Home</a> <span class="mx-2 slash">/</span>
+              <a href="/dashboard">Home</a> <span class="mx-2 slash">/</span>
               <a href="#">Job</a> <span class="mx-2 slash">/</span>
               <span class="text-white"><strong>Post a Job</strong></span>
             </div>

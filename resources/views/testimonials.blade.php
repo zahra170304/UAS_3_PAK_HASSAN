@@ -2,7 +2,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>JobBoard &mdash; Website Template by Colorlib</title>
+    <link href="images/polnest.png" rel="icon">
+    <title>CDC &mdash; Politeknik Nest</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -52,7 +53,7 @@
           <div class="col-md-7">
             <h1 class="text-white font-weight-bold">Candidate's Testimonials</h1>
             <div class="custom-breadcrumbs">
-              <a href="#">Home</a> <span class="mx-2 slash">/</span>
+              <a href="/dashboard">Home</a> <span class="mx-2 slash">/</span>
               <span class="text-white"><strong>Testimonials</strong></span>
             </div>
           </div>
@@ -67,13 +68,13 @@
           <div class="col-lg-6 mb-4">
             <div class="block__87154">
               <blockquote>
-                <p>&ldquo;Ipsum harum assumenda in eum vel eveniet numquam cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit&rdquo;</p>
+                <p>&ldquo;Website ini sangat membantu saya dalam mencari pekerjaan sesuai dengan bidang saya. Terima kasih CDC, sekarang saya sudah bekerja di perusahaan impian!&rdquo;</p>
               </blockquote>
               <div class="block__91147 d-flex align-items-center">
                 <figure class="mr-4"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></figure>
                 <div>
-                  <h3>Elisabeth Smith</h3>
-                  <span class="position">Creative Director</span>
+                  <h3>Siti Rahmawati</h3>
+                  <span class="position">Software Engineer</span>
                 </div>
               </div>
             </div>
@@ -82,13 +83,13 @@
           <div class="col-lg-6 mb-4">
             <div class="block__87154">
               <blockquote>
-                <p>&ldquo;Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit&rdquo;</p>
+                <p>&ldquo;Dengan adanya CDC, saya merasa lebih percaya diri untuk melamar pekerjaan. Tips pembuatan CV dan simulasi interview yang diberikan sangat bermanfaat!&rdquo;</p>
               </blockquote>
               <div class="block__91147 d-flex align-items-center">
                 <figure class="mr-4"><img src="images/person_2.jpg" alt="Image" class="img-fluid"></figure>
                 <div>
-                  <h3>Chris Peter</h3>
-                  <span class="position">Web Designer</span>
+                  <h3>Andi Pratama</h3>
+                  <span class="position">Fresh Graduate Akuntansi</span>
                 </div>
               </div>
             </div>
@@ -97,13 +98,13 @@
           <div class="col-lg-6 mb-4">
             <div class="block__87154">
               <blockquote>
-                <p>&ldquo;Ipsum harum assumenda in eum vel eveniet numquam cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit&rdquo;</p>
+                <p>&ldquo;Saya bisa menemukan banyak lowongan pekerjaan yang relevan di CDC. Navigasinya mudah, dan fitur pencariannya sangat membantu!&rdquo;</p>
               </blockquote>
               <div class="block__91147 d-flex align-items-center">
                 <figure class="mr-4"><img src="images/person_3.jpg" alt="Image" class="img-fluid"></figure>
                 <div>
-                  <h3>Benjamin Lewis</h3>
-                  <span class="position">Creative Director</span>
+                  <h3>Rizky Kurniawan</h3>
+                  <span class="position">Marketing Specialist</span>
                 </div>
               </div>
             </div>
@@ -112,13 +113,13 @@
           <div class="col-lg-6 mb-4">
             <div class="block__87154">
               <blockquote>
-                <p>&ldquo;Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit&rdquo;</p>
+                <p>&ldquo;Saya tidak menyangka proses rekrutmen bisa semudah ini berkat CDC. Fitur seperti pengingat deadline lamaran sangat membantu!&rdquo;</p>
               </blockquote>
               <div class="block__91147 d-flex align-items-center">
                 <figure class="mr-4"><img src="images/person_4.jpg" alt="Image" class="img-fluid"></figure>
                 <div>
-                  <h3>Pippa Cooper</h3>
-                  <span class="position">Web Designer</span>
+                  <h3>Bagas Arya</h3>
+                  <span class="position">HR Intern</span>
                 </div>
               </div>
             </div>
@@ -127,13 +128,13 @@
           <div class="col-lg-12 mb-4">
             <div class="block__87154 bg-primary">
               <blockquote>
-                <p class="text-white">&ldquo;Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit&rdquo;</p>
+                <p class="text-white">&ldquo;Berawal dari keraguan saya akan peluang karir setelah lulus, CDC benar-benar mengubah hidup saya. Dalam waktu kurang dari sebulan, saya mendapatkan pekerjaan di perusahaan multinasional dengan gaji yang jauh di atas ekspektasi. Selain itu, bimbingan dari tim CDC mengenai strategi negosiasi gaji sangat membantu saya mendapatkan paket kompensasi terbaik. CDC bukan hanya website pencari kerja biasa, tapi jembatan menuju masa depan cerah!&rdquo;</p>
               </blockquote>
               <div class="block__91147 d-flex align-items-center">
-                <figure class="mr-4"><img src="images/person_4.jpg" alt="Image" class="img-fluid"></figure>
+                <figure class="mr-4"><img src="images/person_5.jpg" alt="Image" class="img-fluid"></figure>
                 <div>
-                  <h3 class="text-white">Pippa Cooper</h3>
-                  <span class="position position-2">Web Designer</span>
+                  <h3 class="text-white">Jonathan Pradipta</h3>
+                  <span class="position position-2">Business Analyst di Perusahaan Fortune 500</span>
                 </div>
               </div>
             </div>
@@ -169,35 +170,6 @@
             </div>
           </div>
 
-          <div class="col-lg-6 mb-4">
-            <div class="block__87154">
-              <blockquote>
-                <p>&ldquo;Ipsum harum assumenda in eum vel eveniet numquam cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit&rdquo;</p>
-              </blockquote>
-              <div class="block__91147 d-flex align-items-center">
-                <figure class="mr-4"><img src="images/person_3.jpg" alt="Image" class="img-fluid"></figure>
-                <div>
-                  <h3>Benjamin Lewis</h3>
-                  <span class="position">Creative Director</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mb-4">
-            <div class="block__87154">
-              <blockquote>
-                <p>&ldquo;Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit&rdquo;</p>
-              </blockquote>
-              <div class="block__91147 d-flex align-items-center">
-                <figure class="mr-4"><img src="images/person_4.jpg" alt="Image" class="img-fluid"></figure>
-                <div>
-                  <h3>Pippa Cooper</h3>
-                  <span class="position">Web Designer</span>
-                </div>
-              </div>
-            </div>
-          </div>
 
         </div>
       </div>

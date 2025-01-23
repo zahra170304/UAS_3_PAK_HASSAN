@@ -18,7 +18,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>JobBoard &mdash; Website Template by Colorlib</title>
+    <link href="images/polnest.png" rel="icon">
+    <title>CDC &mdash; Politeknik Nest</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="" />
@@ -62,27 +63,27 @@
     <x-navbar></x-navbar>
 
     <!-- HOME -->
-    <section class="home-section section-hero overlay bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
+    <section class="home-section section-hero overlay bg-image" style="background-image: url('images/gg.jpg');" id="home-section">
 
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-12">
             <div class="mb-5 text-center">
-              <h1 class="text-white font-weight-bold">The Easiest Way To Get Your Dream Job</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est, consequuntur perferendis.</p>
+              <h1 class="text-white font-weight-bold">Career Development Center (CDC)</h1>
+              <p>"Find the best job opportunities that match your skills."</p>
             </div>
             
           </div>
         </div>
       </div>
 
-      <a href="#next" class="scroll-button smoothscroll">
+      <a href="#test" class="scroll-button smoothscroll">
         <span class=" icon-keyboard_arrow_down"></span>
       </a>
 
     </section>
     
-    <section class="py-5 bg-image overlay-primary fixed overlay" id="next" style="background-image: url('images/hero_1.jpg');">
+    {{-- <section class="py-5 bg-image overlay-primary fixed overlay" id="next" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
@@ -123,16 +124,16 @@
             
         </div>
       </div>
-    </section>
+    </section> --}}
 
     
 
-    <section class="site-section">
+    <section class="site-section" id="test">
       <div class="container">
 
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
-            <h2 class="section-title mb-2">43,167 Job Listed</h2>
+            <h2 class="section-title mb-2">Job Listed</h2>
           </div>
         </div>
         
@@ -302,7 +303,7 @@
       </div>
     </section>
 
-    <section class="py-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
+    {{-- <section class="py-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-8">
@@ -314,7 +315,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}
 
     
     <section class="site-section py-4">
