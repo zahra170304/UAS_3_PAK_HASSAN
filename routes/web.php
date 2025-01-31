@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\JobController;
+use App\Models\Andhikaaa;
 
 Route::get('/', function () {
     return view('login');
@@ -60,8 +61,39 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/post-job', [JobController::class, 'create'])->name('post-job.create');
-Route::post('/post-job', [JobController::class, 'store'])->name('post-job.store');
+Route::controller(JobController::class)->group(function () {
+    // index pekerjaan
+    Route::get('/listkerja', 'index');
+
+
+    // input pekerjaan
+    Route::get('/listkerja/create', 'create');
+
+    // menampilkan detail pekerjaan
+    Route::get('/listkerja/{kerja}', 'detail');
+
+    // menyimpan pekerjaan ke DB
+    Route::post('/listkerja', 'save');
+
+    // edit pekerjaan
+    Route::get('/listkerja/{kerja}/edit', 'edit');
+
+    // update pekerjaan
+    Route::patch('/listkerja/{kerja}', 'update');
+
+    // hapus pekerjaan
+    Route::delete('/listkerja/{kerja}', 'delete');
+});
+
+Route::get('/mahasiswa', function () {
+    $identitasUnik = Andhikaaa::getIdentitasAndhika();
+
+    return view('mahasiswa.show', compact('identitasUnik'));
+});
+
+
+// Route::get('/post-job', [JobController::class, 'create'])->name('post-job.create');
+// Route::post('/post-job', [JobController::class, 'store'])->name('post-job.store');
 
 
 Route::get('/dashboard', function () {
